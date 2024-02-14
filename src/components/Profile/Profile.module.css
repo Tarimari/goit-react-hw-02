@@ -1,0 +1,44 @@
+.item {
+  width: auto;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border: 2px solid black;
+  border-radius: 14px;
+  background-color: white;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+}
+.teamPerson {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: black;
+
+  margin-bottom: 8px;
+}
+
+.teamJob {
+  font-size: 26px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: gray;
+}
+.teamList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  border: 2px solid gray;
+}
