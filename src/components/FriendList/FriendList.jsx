@@ -1,3 +1,4 @@
+import FriendListItem from "../FriendListItem/FriendListItem.jsx";
 import css from "./FriendList.module.css";
 import clsx from "clsx";
 console.log(css);
@@ -6,6 +7,7 @@ export default function FriendList(friends) {
   return (
     <ul>
       {friends.map(({ avatar, name, isOnline, id }) => {
+        console.log(avatar);
         return (
           <li>
             key={id}
