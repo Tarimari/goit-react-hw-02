@@ -1,5 +1,4 @@
 export default function TransactionHistoryItem({item: item}) {
-    console.log(item)
     return (
     <>
       <td>{item.type}</td>
